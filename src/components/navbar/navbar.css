@@ -1,0 +1,16 @@
+#nav{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(3, 3, 66);
+    
+    
+    
+   
+  }
+  .navbar-toggler{
+   border-color: aliceblue !important;
+    background-color:rgb(134, 144, 147) !important;
+  }
+  .nav-text:hover{
+    color: yellowgreen;
+  }
