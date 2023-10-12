@@ -1,8 +1,10 @@
 #nav{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(3, 3, 66);
+    background-color: rgb(10, 10, 59);
+    opacity: 0.8;
     
+ 
     
     
    
@@ -11,6 +13,18 @@
    border-color: aliceblue !important;
     background-color:rgb(134, 144, 147) !important;
   }
-  .nav-text:hover{
-    color: yellowgreen;
+  li a:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(209, 232, 41, 0.2);
   }
+  .fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    
+  }
+  li a{
+    border-radius: 20%;
+  }
+  

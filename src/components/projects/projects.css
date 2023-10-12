@@ -1,0 +1,16 @@
+.prot{
+    font-weight: bolder;
+    font-size: 3rem;
+    color: rgb(247, 247, 17);
+    
+}
+.projCon{
+background-color: rgb(0, 0, 33);
+
+}
+.proj-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 5px 15px rgba(11, 184, 43, 0.61);
+  }
+
+

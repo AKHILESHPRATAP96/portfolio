@@ -3,7 +3,7 @@ import about from '../assets/about.png'
 
 function About() {
   return (
-    <div class="container-fluid  text-center intro" >
+    <div class="container-fluid  text-center intro" id="about" >
     <div class="row">
       <div class="col-5  d-flex flex-column justify-content-center align-item-start">
         
@@ -12,7 +12,7 @@ function About() {
       </div>
       
       <div class="col-sm-7 d-flex flex-column justify-content-center">
-        <h2 style={{color:'yellow'}}>About me</h2>
+        <h2 className='text-warning'>About me</h2>
         <h5>"I'm a Full Stack Web Developer specializing in the MERN stack. My passion lies in 
           crafting seamless web applications. I excel in both front-end and back-end development,
            creating responsive user interfaces and scalable server solutions. With a commitment to
