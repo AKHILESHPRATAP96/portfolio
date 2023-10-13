@@ -25,7 +25,7 @@
 
 .skill-card:hover {
   transform: scale(1.02);
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 15px rgba(136, 156, 24, 0.705);
 }
 
 .card-title {

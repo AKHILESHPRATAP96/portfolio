@@ -8,6 +8,7 @@ import { Helmet } from 'react-helmet';
 import Skills from './components/skills/skills';
 import Projects from './components/projects/projects';
 import ContactForm from './components/contact/contact';
+import { Container } from 'react-bootstrap';
 
 
 
@@ -16,6 +17,7 @@ import ContactForm from './components/contact/contact';
 function App() {
   return (<div className="App">
     <Helmet><title>Akhilesh Portfolio</title></Helmet>
+  
     <Navbar/>
     <Home/>
     <About/>
@@ -23,6 +25,7 @@ function App() {
     <Projects/>
     <ContactForm/>
    
+    
     </div>
   );
 }

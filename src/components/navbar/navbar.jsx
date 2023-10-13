@@ -6,9 +6,10 @@ import '../navbar/navbar.css'
 
 export default function Navbar() {
   return (
+    
   <nav id='nav' class="navbar navbar-expand-lg fixed-top "  >
   <div class="container">
-    <a class="navbar-brand" href="#"> <img src={navImg} alt="Portfolio" width="120" height="50"/>
+    <a class="navbar-brand" href="#"> <img src={navImg} alt="Portfolio" width="180" height="60"/>
     </a>   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon "></span>
     </button>

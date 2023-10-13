@@ -7,6 +7,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #fff;
+  
   }
   
   /* Style form labels */
@@ -45,8 +46,31 @@
   }
   .contact{
     background-color: rgb(0, 0, 33);
+  
   }
 .btnsub{
     text-align: center; /* Horizontally center the button */
     margin-top: 20px;   /* Add some spacing at the top for vertical centering */
+  }
+  .contactitem img{
+    height: 40px;
+  }
+  .contactitem{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .formdiv{
+    width: 500px !important;
+  }
+  .formdiv:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 10px 10px rgb(31, 10, 150);
+  }
+  .contactitem a:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 15px rgba(35, 11, 216, 0.705);
+    
   }

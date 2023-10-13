@@ -3,6 +3,12 @@ import '../contact/contact.css'
 import { Col,Row, Container } from 'react-bootstrap';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import insta from '../assets/contact/instagram.svg'
+import fac from '../assets/contact/facebook.svg'
+import lin from '../assets/contact/linkedin.svg'
+import wats from '../assets/contact/whatsapp.svg'
+import twi from '../assets/contact/twitter.svg'
+import git from '../assets/contact/github.svg'
 
 
 
@@ -26,9 +32,9 @@ export default function ContactForm() {
   return (
     <Container fluid className='contact ' id='contact'>
         <Row>
-            <Col className='text-center fw-bold mt-5 mb-5 text-warning'><h1>CONTACT ME</h1></Col>
+            <Col  className='text-center fw-bold mt-5 mb-5 text-warning'><h1>CONTACT ME</h1></Col>
         </Row>
-        <Row><div className="form-container">
+        <Row><div className="form-container formdiv">
       <form ref={formRef}  onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label htmlFor="name">Name</label>
@@ -76,6 +82,45 @@ export default function ContactForm() {
 
       </form>
     </div></Row>
+    <Row className=' mt-1 '>
+      <Col  className='contactitem'>
+      <a href="https://www.instagram.com" target='blank'>
+              <img src={insta}
+               
+              />
+            </a>
+            </Col>
+
+            <Col  className='contactitem'><a href="https://www.facebook.com" target='blank'>
+              <img src={fac}
+               
+              />
+            </a></Col> 
+
+            <Col  className='contactitem'> <a href="https://www.linkedin.com/in/akhileshpratap001//" target='blank'>
+              <img src={lin}
+               
+              />
+            </a></Col> 
+            <Col  className='contactitem'> <a href="https://web.whatsapp.com" target='blank'>
+              <img src={wats}
+               
+              />
+            </a></Col>
+            <Col  className='contactitem'> <a href="https://www.twitter.com" target='blank'>
+              <img src={twi}
+                
+                color="info"
+              />
+            </a></Col> 
+            <Col  className='contactitem'> <a href="https://github.com/AKHILESHPRATAP96" target='blank'>
+              <img src={git}
+              
+              />
+            </a></Col> 
+      
+  
+    </Row>
     </Container>
   );
 }
