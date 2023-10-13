@@ -1,20 +1,20 @@
 import L_HTML5 from '../assets/skills/html-5.svg'
 import L_CSS3 from "../assets/skills/css3.svg";
-import L_SASS from "../assets/skills/sass-1.svg";
+
 import L_BOOTSTRAP from "../assets/skills//bootstrap-4.svg";
 import L_REACT from "../assets/skills/react.svg";
 import L_REDUX from "../assets/skills/redux.svg";
 import L_MATERIALUI from "../assets/skills//material-ui-1.svg";
-import L_REACT_BOOTSTRAP from "../assets/skills//react-bootstrap.svg";
-import L_GIT from "../assets/skills/git-icon.svg";
+
+
 import mongoDB from '../assets/skills/mongodb.svg'
 
 import L_GITHUB_PAGES from "../assets/skills/github.svg";
 import L_JAVASCRIPT from "../assets/skills/javascript.svg";
 import L_NETLIFY from "../assets/skills/netlify-icon.svg"
-import L_FIREBASE from "../assets/skills/firebase-icon.svg"
+
 import L_VERCEL from "../assets/skills/logo-vercel.svg"
-import L_TAILWIND from "../assets/skills/tailwindcss-icon.svg"
+
 
 
 

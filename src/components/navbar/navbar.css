@@ -1,10 +1,9 @@
 #nav{
-   
+ 
     padding: 0px;
-    background-color: rgb(10, 10, 59);
+    background-color: rgb(6, 6, 34);
+    z-index: 1000px;
    
-    max-width: 100%;
-    transform: scale(1.02);
 
    
   }

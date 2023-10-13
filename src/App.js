@@ -8,7 +8,7 @@ import { Helmet } from 'react-helmet';
 import Skills from './components/skills/skills';
 import Projects from './components/projects/projects';
 import ContactForm from './components/contact/contact';
-import { Container } from 'react-bootstrap';
+
 
 
 

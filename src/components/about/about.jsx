@@ -1,9 +1,10 @@
 import React from 'react'
 import about from '../assets/about.png'
+import '../about/about.css'
 
 function About() {
   return (
-    <div class="container-fluid  text-center intro" id="about" >
+    <div class="container-fluid  text-center " id="about" >
     <div class="row">
       <div class="col-5  d-flex flex-column justify-content-center align-item-start">
         
