@@ -12,7 +12,7 @@ function Home() {
   return (
 
     <Container fluid style={{ marginTop: "70px" }}>
-      <Row className='intro'>
+      <Row className='intro ms-5'>
         <Col xs={12} sm={12} md={6} lg={6}>
           <h1 className='hello text-warning '>Hello</h1>
           <h1>I'm Akhilesh Pratap,</h1>
@@ -20,16 +20,16 @@ function Home() {
           <h1>{text}<Cursor /></h1>
 
         </Col >
-        <Col xs={10} sm={12} md={6} lg={6} className='imgx'>
+        <Col xs={10} sm={12} md={6} lg={6} className='imgx '>
           <motion.div
            
            animate={{
-            scale: [1, 1.5, 1.5, 1, 1],
+            scale: [1, 1.5, 0.6, 1, 1],
             rotate: [0, 0, 90, 90, 0],
             borderRadius: ["20%", "20%", "50%", "50%", "20%"]
           }}
             transition={{ duration: 7 }}
-          ><img src={logoPort} className='img-fluid  ms-2' /></motion.div>
+          ><img src={logoPort} className='img-fluid ' /></motion.div>
         </Col>
       </Row>
 

@@ -6,7 +6,7 @@ import {  motion } from "framer-motion"
 
 function About() {
   return (
-    <div class="container-fluid  text-center " id="about" >
+    <div class="container-fluid  text-center  " style={{marginTop:100}} id="about" >
     <div class="row">
       <div class="col-5  d-flex flex-column justify-content-center align-item-start">
       
@@ -16,7 +16,7 @@ function About() {
       
      
          <motion.div
-  whileInView={{x:[100,-50]}}
+  whileInView={{x:[100,-20]}}
   transition={{ type: "spring", stiffness: 100 }}
 >
         <img src={about}  className='img-fluid' />

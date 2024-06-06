@@ -12,8 +12,8 @@ export default function Navbar() {
       <div class="container">
         <a class="navbar-brand" href="#"> 
         <motion.div
-        animate={{scale: [ 14,12,10,8,6,3,1.5],x:-50}}
-        transition={{duration:2}}
+        animate={{scale: [ 5,.5,1.5],x:-50}}
+        transition={{duration:1.3}}
         >
         <img src={navImg} alt="Portfolio" width="80" height="60" />
         </motion.div>
