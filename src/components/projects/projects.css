@@ -7,10 +7,20 @@
 .projCon{
 background-color: rgb(0, 0, 33);
 
+
+gap: 100;
+
+
 }
 .proj-card:hover {
-    transform: scale(1.02);
+    transform: scale(1.1);
+    transition: 1s;
     box-shadow: 0px 5px 15px rgba(11, 184, 43, 0.61);
   }
 
+  
+[row]{
+    display: flex;
+    justify-content: space-between;
+}
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import navImg from '../assets/logo.png'
 import '../navbar/navbar.css'
+import { motion } from "framer-motion"
 
 
 
@@ -9,7 +10,16 @@ export default function Navbar() {
   return (
     <nav id='nav' class="navbar navbar-expand-lg fixed-top "  >
       <div class="container">
-        <a class="navbar-brand" href="#"> <img src={navImg} alt="Portfolio" width="80" height="60" />
+        <a class="navbar-brand" href="#"> 
+        <motion.div
+        animate={{scale: [ 14,12,10,8,6,3,1.5],x:-50}}
+        transition={{duration:2}}
+        >
+        <img src={navImg} alt="Portfolio" width="80" height="60" />
+        </motion.div>
+
+
+
         </a>   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon "></span>
         </button>

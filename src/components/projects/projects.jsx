@@ -10,14 +10,19 @@ import tod from '../assets/projects/todo_list.jpg'
 import lis from '../assets/projects/list.jpg'
 import flepeo from "../assets/projects/flepeo.png"
 import weather from "../assets/projects/weather-app.png"
+import { motion } from "framer-motion"
 
 export default function projects() {
   return (
-    <Container fluid className='projCon' id='projects'>
+    <Container   className='projCon' id='projects' >
+      <motion.div
+      initial={{ opacity: 0,scale:.8 }}
+      whileInView={{ opacity: 1 ,scale:1}}
+      transition={{duration:1.2}}>
       <Row>
         <Col><h1 className='text-center prot fw-bold mb-5 text-warning'>Projects</h1></Col>
       </Row>
-      <Row >
+      <Row  className='p-3' >
         <Col xs={12} md={6} className=' d-flex justify-content-center align-items-center  '>
           <Card className='proj-card' style={{ width: '25rem', height: "30rem" }}>
             <Card.Img variant="top" src={weather} />
@@ -49,7 +54,7 @@ export default function projects() {
           </Card>
         </Col>
       </Row>
-      <Row >
+      <Row className='p-3'>
         <Col xs={12} md={6} className=' d-flex justify-content-center '>
           <Card className='proj-card' style={{ width: '25rem', height: "30rem" }}>
             <Card.Img variant="top" src={Res} height={280} />
@@ -82,7 +87,7 @@ export default function projects() {
           </Card>
         </Col>
       </Row>
-      <Row >
+      <Row className='p-3'>
         <Col xs={12} md={6} className=' d-flex justify-content-center '>
           <Card className='proj-card' style={{ width: '25rem', height: "30rem" }}>
             <Card.Img variant="top" src={tod} height={280} />
@@ -116,6 +121,7 @@ export default function projects() {
           </Card>
         </Col>
       </Row>
+      </motion.div>
 
 
 

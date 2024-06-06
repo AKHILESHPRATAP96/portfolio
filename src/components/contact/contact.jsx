@@ -9,10 +9,7 @@ import lin from '../assets/contact/linkedin.svg'
 import wats from '../assets/contact/whatsapp.svg'
 import twi from '../assets/contact/twitter.svg'
 import git from '../assets/contact/github.svg'
-
-
-
-
+import { motion } from "framer-motion"
 
 export default function ContactForm() {
   const { register, handleSubmit, formState: { errors } } = useForm();
@@ -31,6 +28,10 @@ export default function ContactForm() {
 
   return (
     <Container fluid className='contact ' id='contact'>
+      <motion.div
+  whileInView={{x:[100,-50]}}
+  transition={{ type: "spring", stiffness: 100 }}
+>
         <Row>
             <Col  className='text-center fw-bold mt-5 mb-5 text-warning'><h1>CONTACT ME</h1></Col>
         </Row>
@@ -121,6 +122,7 @@ export default function ContactForm() {
       
   
     </Row>
+    </motion.div>
     </Container>
   );
 }
